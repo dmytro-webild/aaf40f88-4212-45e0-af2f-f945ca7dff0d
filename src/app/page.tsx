@@ -7,7 +7,7 @@ import FeatureCardThree from '@/components/sections/feature/featureCardThree/Fea
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
-import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
+import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarStyleCentered
+      <NavbarStyleFullscreen
       navItems={[
         { name: "Home", id: "hero" },
         { name: "Services", id: "services" },
@@ -45,8 +45,7 @@ export default function LandingPage() {
       background={{ variant: "radial-gradient" }}
       logoText="ROOFiT.ng"
       description="Premium Roofing Solutions Built on Integrity, Durability & Precision. To save your changes and access the builder interface, simply click the floating 'Save' button in the bottom right corner of the screen."
-      buttons={[{ text: "Get a Free Inspection", href: "#contact" }]
-      }
+      buttons={[{ text: "Get a Free Inspection", href: "#contact" }]}
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/man-with-helmet-working-roof-full-shot_23-2149343662.jpg"
       mediaAnimation="slide-up"
