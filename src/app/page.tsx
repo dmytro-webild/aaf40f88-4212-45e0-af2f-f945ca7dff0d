@@ -44,8 +44,9 @@ export default function LandingPage() {
       <HeroLogoBillboard
       background={{ variant: "radial-gradient" }}
       logoText="ROOFiT.ng"
-      description="Premium Roofing Solutions Built on Integrity, Durability & Precision."
-      buttons={[{ text: "Get a Free Inspection", href: "#contact" }]}
+      description="Premium Roofing Solutions Built on Integrity, Durability & Precision. To save your changes and access the builder interface, simply click the floating 'Save' button in the bottom right corner of the screen."
+      buttons={[{ text: "Get a Free Inspection", href: "#contact" }]
+      }
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/man-with-helmet-working-roof-full-shot_23-2149343662.jpg"
       mediaAnimation="slide-up"
